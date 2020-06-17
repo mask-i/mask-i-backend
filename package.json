@@ -1,0 +1,20 @@
+{
+  "name": "mask-i-backend",
+  "version": "1.0.0",
+  "description": "Settings manager for mask-i",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "mongoose": "^5.9.19",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "author": "Ian Matlak",
+  "license": "MIT"
+}
